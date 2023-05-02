@@ -1,9 +1,9 @@
 <script setup>
 import tabbableTextarea from '@/components/tabbableTextarea.vue'
 import {ref} from "vue"
-import {provide} from "vue";
+import { state } from '../stores/quizStore';
 
-provide('name','hadi');
+console.log(state)
 
 let comments = ref('hello there');
 
