@@ -1,5 +1,8 @@
 <script setup>
 import { ref } from 'vue';
+import { state } from '../stores/quizStore';
+
+console.log(state.name)
 
 defineProps({
   modelValue: String
