@@ -3,7 +3,7 @@ import tabbableTextarea from '@/components/tabbableTextarea.vue'
 import {ref} from "vue"
 import { state } from '../stores/quizStore';
 
-console.log(state)
+state();
 
 let comments = ref('hello there');
 
