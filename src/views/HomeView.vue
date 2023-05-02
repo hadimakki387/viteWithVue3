@@ -1,9 +1,11 @@
 <script setup>
 import tabbableTextarea from '@/components/tabbableTextarea.vue'
 import {ref} from "vue"
+import {provide} from "vue";
+
+provide('name','hadi');
 
 let comments = ref('hello there');
-console.log(comments.value)
 
 </script>
 

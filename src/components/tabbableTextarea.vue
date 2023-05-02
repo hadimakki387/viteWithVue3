@@ -1,5 +1,8 @@
 <script setup>
 import { ref } from 'vue';
+import {inject} from 'vue';
+
+console.log(inject('name'))
 
 defineProps({
   modelValue: String
